@@ -1,0 +1,18 @@
+Package: MHCpBT
+Title: MHC-peptide binding threshold estimation
+Version: 0.1
+Authors@R: 
+    person("Ran", "Liu", email = "rliu@link.cuhk.edu.hk", role = c("aut", "cre"))
+Depends: R (>= 3.6.1)
+Description: This package is an implementation of a Bayesian approach to estimate the binding threshold between the peptides and MHC.
+License: GPL (>= 3)
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports:
+    stringr,
+    ggplot2,
+    ggseqlogo
+    MCMCpack,
+    TruncatedNormal,
+    MASS
