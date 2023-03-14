@@ -2,7 +2,7 @@
 A Bayesian Approach to Estimate MHC-Peptide Binding Threshold
 
 ## Installation
-You can install the released version of cqrIS from GitHub with:
+You can install the released version of MHCpBT from GitHub with:
 ```
 devtools::install_github("RanLIUaca/MHCpBT")
 library(MHCpBT)
