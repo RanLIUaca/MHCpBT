@@ -8,6 +8,9 @@ devtools::install_github("RanLIUaca/MHCpBT")
 library(MHCpBT)
 ```
 
+### Prior settings
+We set the non-informative prior distributions as the default settings for users: $\boldsymbol{\gamma}$ and $\boldsymbol{\eta_j}$ are two vector whose entries are all one. $\boldsymbol{\mu_0}$ is a zero vector, and $\boldsymbol{\Sigma_0}$ is a diagonal matrix, $10\boldsymbol{I}$. $\alpha_0$ and $T_0$ are both set to one. 
+
 ## Example
 This is a toy example for estimating the binding threshold for a specific allele:
 ```
