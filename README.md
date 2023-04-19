@@ -44,9 +44,9 @@ The output of this code includes:
   - `result_X.csv`: $\boldsymbol{X}$ matrix 
   - `result_A.csv`: estimated $\boldsymbol{A}$ matrix
   - `result_beta.csv`: estimated $\boldsymbol{\beta}$ coefficients
-  - `result_theta.csv`: estimated $\boldsymbol{Theta}$ coefficients
-  - `result_sigma2.csv`: estimated $\boldsymbol{sigma^2}$
-  - `result_theta_0.csv`: estimated $\boldsymbol{theta_0}$
+  - `result_theta.csv`: estimated $\boldsymbol{\Theta}$ coefficients
+  - `result_sigma2.csv`: estimated $\boldsymbol{\sigma^2}$
+  - `result_theta_0.csv`: estimated $\boldsymbol{\theta_0}$
   - `result_score.csv`: estimated binding scores
   - `final_result.csv`: final data frame including peptide sequences, binding scores, estimated binding probabilities, and estimated binding labels
   - `result_coefficient.csv`: correlation coefficients between the true and estimated binding scores
