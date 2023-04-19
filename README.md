@@ -21,6 +21,43 @@ We set the non-informative prior distributions as the default settings for users
 * result_path: a character string representing the directory where the results will be stored. The default value is "./".
 * only_get_func: a logical value that specifies if only the functions for getting the results should be returned. The default value is FALSE.
 
+## Output
+Sure, here's an updated README.md file that includes the names of each output file:
+
+# Bayesian Model for Peptide Binding Data
+
+This R code implements a Bayesian method for estimating a binding threshold for peptides based on their corresponding binding scores. The output of this code provides a comprehensive analysis of peptide binding data using a Bayesian model.
+
+## Output
+The output of this code includes:
+
+- Several diagnostic plots, such as joint posterior, coefficient, and MSE paths
+  - A plot of the binding probabilities for each sequence
+  - A plot of the final peptide logo
+  - A plot of the joint posterior path
+  - A plot of the coefficient path
+  - A plot of the MSE path
+  - A plot of the real vs estimated scores
+  - A plot of the correlation between the true and estimated scores
+  - A plot of the estimated binding probabilities
+- CSV files containing intermediate results of the analysis, such as:
+  - `temp_X.csv`: temporary X matrix
+  - `temp_beta.csv`: temporary beta coefficients
+  - `result_threshold.csv`: estimated binding threshold
+  - `d_trace.csv`: trace of the estimated binding threshold
+  - `log_joint_post_path.csv`: joint posterior distribution trace
+  - `coe_path.csv`: coefficient path
+  - `MSE_path.csv`: MSE path
+  - `result_X.csv`: X matrix calculated using the estimated coefficients
+  - `result_A.csv`: estimated A matrix
+  - `result_beta.csv`: estimated beta coefficients
+  - `result_theta.csv`: estimated theta coefficients
+  - `result_sigma2.csv`: estimated sigma squared
+  - `result_theta_0.csv`: estimated theta 0
+  - `result_score.csv`: estimated binding scores
+  - `final_result.csv`: final data frame including peptide sequences, binding scores, estimated binding probabilities, and estimated binding labels
+  - `result_coefficient.csv`: correlation coefficients between the true and estimated binding scores
+
 ## Usage
 The main function in MHCpBT is threshold_gibbs, which estimates the MHC-peptide binding threshold using Gibbs sampling.
 ```
