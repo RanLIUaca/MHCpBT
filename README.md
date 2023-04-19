@@ -14,7 +14,7 @@ We set the non-informative prior distributions as the default settings for users
 ## Input
 * data1: an array whose elements are strings representing the peptide sequences. Each element of the array must have the same length.
 * Y: a numeric vector representing the binding scores of the peptides in data1. The length of Y must be equal to the length of data1.
-* motif_len: an integer representing the length of the binding motif. This is a required input.
+* motif_len: an integer representing the length of the binding motif. This is a required input.  Usually, it is 9.
 * dict: a named character vector containing the amino acid letters and their corresponding codes. 
 * burn_in: an integer representing the number of iterations to discard as burn-in. The default value is 2000.
 * end_times: an integer representing the total number of iterations to run the Gibbs sampler. The default value is 3000.
