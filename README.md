@@ -43,8 +43,8 @@ The output of this code includes:
   - `MSE_path.csv`: MSE trace
   - `result_X.csv`: $\boldsymbol{X}$ matrix 
   - `result_A.csv`: estimated $\boldsymbol{A}$ matrix
-  - `result_beta.csv`: estimated $\boldsymbol{\beta}$ coefficients
-  - `result_theta.csv`: estimated $\boldsymbol{\Theta}$ coefficients
+  - `result_beta.csv`: estimated $\boldsymbol{\beta}$ 
+  - `result_theta.csv`: estimated $\boldsymbol{\Theta}$ 
   - `result_sigma2.csv`: estimated $\boldsymbol{\sigma^2}$
   - `result_theta_0.csv`: estimated $\boldsymbol{\theta_0}$
   - `result_score.csv`: estimated binding scores
