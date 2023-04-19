@@ -22,13 +22,6 @@ We set the non-informative prior distributions as the default settings for users
 * only_get_func: a logical value that specifies if only the functions for getting the results should be returned. The default value is FALSE.
 
 ## Output
-Sure, here's an updated README.md file that includes the names of each output file:
-
-# Bayesian Model for Peptide Binding Data
-
-This R code implements a Bayesian method for estimating a binding threshold for peptides based on their corresponding binding scores. The output of this code provides a comprehensive analysis of peptide binding data using a Bayesian model.
-
-## Output
 The output of this code includes:
 
 - Several diagnostic plots, such as joint posterior, coefficient, and MSE paths
