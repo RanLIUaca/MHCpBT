@@ -24,16 +24,15 @@ We set the non-informative prior distributions as the default settings for users
 ## Output
 The output of this code includes:
 
-- Several diagnostic plots, such as joint posterior, coefficient, and MSE paths
-  - A plot of the binding probabilities for each sequence
+- Several diagnostic plots:
   - A plot of the final peptide logo
-  - A plot of the joint posterior path
-  - A plot of the coefficient path
-  - A plot of the MSE path
+  - A plot of the joint posterior trace
+  - A plot of the coefficient trace
+  - A plot of the MSE trace
   - A plot of the real vs estimated scores
   - A plot of the correlation between the true and estimated scores
   - A plot of the estimated binding probabilities
-- CSV files containing intermediate results of the analysis, such as:
+- CSV files containing results of the analysis:
   - `temp_X.csv`: temporary X matrix
   - `temp_beta.csv`: temporary beta coefficients
   - `result_threshold.csv`: estimated binding threshold
