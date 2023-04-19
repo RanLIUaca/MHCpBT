@@ -12,14 +12,14 @@ library(MHCpBT)
 We set the non-informative prior distributions as the default settings for users: $\boldsymbol{\gamma}$ and $\boldsymbol{\eta_j}$ are two vector whose entries are all one. $\boldsymbol{\mu_0}$ is a zero vector, and $\boldsymbol{\Sigma_0}$ is a diagonal matrix, $10\boldsymbol{I}$. $\alpha_0$ and $T_0$ are both set to one. 
 
 ## Input
-data1: an array whose elements are strings representing the peptide sequences. Each element of the array must have the same length.
-Y: a numeric vector representing the binding scores of the peptides in data1. The length of Y must be equal to the length of data1.
-motif_len: an integer representing the length of the binding motif. This is a required input.
-dict: a named character vector containing the amino acid letters and their corresponding codes. The default value is c(A=1,C=2,D=3,E=4,F=5,G=6,H=7,I=8,K=9,L=10,M=11,N=12,P=13,Q=14,R=15,S=16,T=17,V=18,W=19,Y=20).
-burn_in: an integer representing the number of iterations to discard as burn-in. The default value is 2000.
-end_times: an integer representing the total number of iterations to run the Gibbs sampler. The default value is 3000.
-result_path: a character string representing the directory where the results will be stored. The default value is "./".
-only_get_func: a logical value that specifies if only the functions for getting the results should be returned. The default value is FALSE.
+* data1: an array whose elements are strings representing the peptide sequences. Each element of the array must have the same length.
+* Y: a numeric vector representing the binding scores of the peptides in data1. The length of Y must be equal to the length of data1.
+* motif_len: an integer representing the length of the binding motif. This is a required input.
+* dict: a named character vector containing the amino acid letters and their corresponding codes. 
+* burn_in: an integer representing the number of iterations to discard as burn-in. The default value is 2000.
+* end_times: an integer representing the total number of iterations to run the Gibbs sampler. The default value is 3000.
+* result_path: a character string representing the directory where the results will be stored. The default value is "./".
+* only_get_func: a logical value that specifies if only the functions for getting the results should be returned. The default value is FALSE.
 
 ## Usage
 The main function in MHCpBT is threshold_gibbs, which estimates the MHC-peptide binding threshold using Gibbs sampling.
