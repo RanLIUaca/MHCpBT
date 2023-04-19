@@ -12,7 +12,7 @@ library(MHCpBT)
 We set the non-informative prior distributions as the default settings for users: $\boldsymbol{\gamma}$ and $\boldsymbol{\eta_j}$ are two vector whose entries are all one. $\boldsymbol{\mu_0}$ is a zero vector, and $\boldsymbol{\Sigma_0}$ is a diagonal matrix, $10\boldsymbol{I}$. $\alpha_0$ and $T_0$ are both set to one. 
 
 ## Input
-* data1: an array whose elements are strings representing the peptide sequences. Each element of the array must have the same length.
+* data1: an array whose elements are strings representing the peptide sequences.
 * Y: a numeric vector representing the binding scores of the peptides in data1. The length of Y must be equal to the length of data1.
 * motif_len: an integer representing the length of the binding motif. This is a required input.  Usually, it is 9.
 * dict: a named character vector containing the amino acid letters and their corresponding codes. 
@@ -39,14 +39,14 @@ The output of this code includes:
   - `result_threshold.csv`: estimated binding threshold
   - `d_trace.csv`: trace of the estimated binding threshold
   - `log_joint_post_path.csv`: joint posterior distribution trace
-  - `coe_path.csv`: coefficient path
-  - `MSE_path.csv`: MSE path
-  - `result_X.csv`: X matrix calculated using the estimated coefficients
-  - `result_A.csv`: estimated A matrix
-  - `result_beta.csv`: estimated beta coefficients
-  - `result_theta.csv`: estimated theta coefficients
-  - `result_sigma2.csv`: estimated sigma squared
-  - `result_theta_0.csv`: estimated theta 0
+  - `coe_path.csv`: coefficient trace
+  - `MSE_path.csv`: MSE trace
+  - `result_X.csv`: $\boldsymbol{X}$ matrix 
+  - `result_A.csv`: estimated $\boldsymbol{A}$ matrix
+  - `result_beta.csv`: estimated $\boldsymbol{\beta}$ coefficients
+  - `result_theta.csv`: estimated $\boldsymbol{Theta}$ coefficients
+  - `result_sigma2.csv`: estimated $\boldsymbol{sigma^2}$
+  - `result_theta_0.csv`: estimated $\boldsymbol{theta_0}$
   - `result_score.csv`: estimated binding scores
   - `final_result.csv`: final data frame including peptide sequences, binding scores, estimated binding probabilities, and estimated binding labels
   - `result_coefficient.csv`: correlation coefficients between the true and estimated binding scores
