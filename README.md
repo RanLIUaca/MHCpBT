@@ -1,5 +1,5 @@
 # MHCpBT
-MHCpBT is an R package for estimating the MHC-peptide binding threshold using Gibbs sampling. This package is designed to identify the minimum binding score that differentiates strong and weak binding peptides. The package takes as input peptide sequences and corresponding binding scores and outputs the estimated binding threshold. This package is also suitable for other biological binding sequences.
+MHCpBT is an R package for estimating the MHC-peptide binding threshold using Gibbs sampling. This package is designed to identify an appropriate binding score that differentiates strong and weak binding peptides. The package takes as input peptide sequences and corresponding binding scores and outputs the estimated binding threshold. This package is also suitable for other biological binding sequences.
 
 ## Installation
 You can install the released version of MHCpBT from GitHub with:
