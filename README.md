@@ -99,5 +99,5 @@ result = threshold_gibbs(data1 = data1, Y = Y, motif_len, dict = dict,
 ```
 
 ## Reference
--   Ran, L. et al. (2023+), “A Bayesian Approach to Estimate MHC-Peptide Binding Threshold,” Working Paper.
+-   Liu, R., Hu, Y., Huang, J., & Fan, X. (2023). A Bayesian approach to estimate MHC-peptide binding threshold. Briefings in Bioinformatics, 24(4), bbad208. https://doi.org/10.1093/bib/bbad208
 
